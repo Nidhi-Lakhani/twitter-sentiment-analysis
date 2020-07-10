@@ -20,6 +20,12 @@ This first part will give us the data in which we have the sentiment of the twee
 
    2. Twitter Sentiment Analysis:
    
-In this part we will use the data obtained by executing the above functions to create a csv file, then open it with a spreadsheet program like Excel or Google Sheets to generate the final graph. The project_twitter_data file has three columns - the actual tweet, number of retweets and number of replies. We will open the project_twitter_data file which contains the twitter data and create resulting_data.csv, get its positive and negative score and write data in it, which will be the final output. The final output should have the following data: Number of Retweets, Number of Replies, Positive Score (which is how many happy words are in the tweet), Negative Score (which is how many angry words are in the tweet), and the Net Score (how positive or negative the text is overall) for each tweet. Then open that resulting file and generate the graph.
+In this part we will use the data obtained by executing the above functions to create a csv file, then open it with a spreadsheet program like Excel or Google Sheets to generate the final graph. We have been given the file:
+
+      project_twitter_data.csv 
+This file contains our tweet. It has three columns - the actual tweet, number of retweets and number of replies. We will open the project_twitter_data file, get positive and negative score of each tweet and write data in our output file,
+
+      resulting_data.csv
+The final output should have the following data: Number of Retweets, Number of Replies, Positive Score (which is how many happy words are in the tweet), Negative Score (which is how many angry words are in the tweet), and the Net Score (how positive or negative the text is overall) for each tweet. Then open that resulting file using Excel or Google Sheets and generate the graph.
 
     
